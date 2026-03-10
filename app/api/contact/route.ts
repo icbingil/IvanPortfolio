@@ -110,7 +110,7 @@ export async function POST(req: Request) {
       from: `"ICB PORTFOLIO" <${process.env.SMTP_USER}>`,
       to: toAddress,
       replyTo: email,
-      subject: `New Contact Form Submission from ${name}`,
+      subject: `📩 New Contact Form Submission from ${name}`,
       html: `
         <h3>New Contact Form Submission from</h3>
         <p><b>Name:</b> ${escapeHtml(name)}</p>
