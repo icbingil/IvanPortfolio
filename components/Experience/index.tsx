@@ -14,47 +14,44 @@ export function Experience() {
           {/* Experience 1 */}
           <div className="border-t-[3px] border-black py-6">
             <p className="text-sm font-bold uppercase tracking-wide text-black">
-              2026 — Present
+              2022 — 2026
             </p>
             <h3 className="text-xl font-black uppercase tracking-tight text-black mt-2">
-              Senior Software Engineer
+              BSIT Student
             </h3>
-            <p className="font-bold text-[#FF5722] mt-1">Stripe</p>
+            <p className="font-bold text-[#FF5722] mt-1">RMMC</p>
             <p className="text-base text-black mt-3">
-              Leading the frontend architecture for the billing platform.
-              Improved dashboard load times by 40%.
+              Learning the fundamentals of Information Technology, including programming, web development, and database systems. Building small projects to practice and apply core concepts.
             </p>
           </div>
 
           {/* Experience 2 */}
           <div className="border-t-[3px] border-black py-6">
             <p className="text-sm font-bold uppercase tracking-wide text-black">
-              2026
+              2023
             </p>
             <h3 className="text-xl font-black uppercase tracking-tight text-black mt-2">
-              Software Engineer
+              Student Developer
             </h3>
-            <p className="font-bold text-[#FF5722] mt-1">Vercel</p>
+            <p className="font-bold text-[#FF5722] mt-1">Academic Projects</p>
             <p className="text-base text-black mt-3">
-              Core contributor to Next.js. Developed key features for the edge
-              runtime and routing system.
+              Created several web applications as part of coursework to practice programming and system development.
             </p>
           </div>
 
           {/* Experience 3 */}
           <div className="border-t-[3px] border-black py-6">
             <p className="text-sm font-bold uppercase tracking-wide text-black">
-              2026
+              Present
             </p>
             <h3 className="text-xl font-black uppercase tracking-tight text-black mt-2">
-              Frontend Developer
+              IT Intern
             </h3>
             <p className="font-bold text-[#FF5722] mt-1">
-              Acme Startup (YC S18)
+              Internship Program
             </p>
             <p className="text-base text-black mt-3">
-              First engineering hire. Built the MVP from scratch and scaled the
-              platform to 100k+ MAU.
+              Gaining practical experience in web development and assisting with development tasks.
             </p>
           </div>
         </div>

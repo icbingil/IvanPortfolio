@@ -14,18 +14,17 @@ export function Projects() {
           {/* Project 1 */}
           <div className="border-t-[3px] border-black py-8">
             <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tight text-black">
-              Nexus Analytics
+              A group Project for Sia2 Massage Booking
             </h3>
             <p className="text-black text-base mt-3">
-              Real-time event tracking and analytics dashboard for SaaS
-              products.
+              Real-time booking management and analytics dashboard for a massage service. Designed to track appointments, manage schedules, and provide insights with fast, responsive performance.
             </p>
             <p className="text-sm font-bold uppercase tracking-wide text-black mt-4">
-              React / TypeScript / ClickHouse / Go
+              PHP, Laravel, MySQL, HTML, CSS, JavaScript
             </p>
             <div className="flex items-center gap-6 mt-6">
               <a
-                href="#"
+                href="https://github.com/CAACARL/Sia2-Massage-Booking"
                 className="text-sm font-bold uppercase tracking-widest text-black hover:text-[#FF5722] transition-colors"
               >
                 GitHub
@@ -42,17 +41,17 @@ export function Projects() {
           {/* Project 2 */}
           <div className="border-t-[3px] border-black py-8">
             <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tight text-black">
-              Lumina Editor
+              mpo group project for coahs department of Rmmc
             </h3>
             <p className="text-black text-base mt-3">
-              A block-based rich text editor with collaborative features.
+              A comprehensive system designed to manage inventory, student records, and various administrative operations.
             </p>
             <p className="text-sm font-bold uppercase tracking-wide text-black mt-4">
-              Next.js / ProseMirror / Yjs / WebSockets
+              Built with PHP, Laravel, Boostrap, Javascript
             </p>
             <div className="flex items-center gap-6 mt-6">
               <a
-                href="#"
+                href="https://github.com/lowiji12/coahs"
                 className="text-sm font-bold uppercase tracking-widest text-black hover:text-[#FF5722] transition-colors"
               >
                 GitHub
@@ -69,44 +68,17 @@ export function Projects() {
           {/* Project 3 */}
           <div className="border-t-[3px] border-black py-8">
             <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tight text-black">
-              Aura UI
+              Laurelle Veterinary Clinic Inventory and POS Sytem
             </h3>
             <p className="text-black text-base mt-3">
-              Minimalist, accessible component library for React applications.
+              Laurelle Veterinary Clinic Inventory and POS System is a smart, all-in-one solution designed to streamline clinic operations. From managing medical supplies and inventory to handling sales transactions with speed and accuracy, this system ensures a seamless experience for staff and clients alike, improving efficiency and enhancing overall service quality.
             </p>
             <p className="text-sm font-bold uppercase tracking-wide text-black mt-4">
-              React / Tailwind CSS / Radix UI / Storybook
+              Built with PHP, Laravel, MySQL, HTML, CSS, JavaScript
             </p>
             <div className="flex items-center gap-6 mt-6">
               <a
-                href="#"
-                className="text-sm font-bold uppercase tracking-widest text-black hover:text-[#FF5722] transition-colors"
-              >
-                GitHub
-              </a>
-              <a
-                href="#"
-                className="text-sm font-bold uppercase tracking-widest text-black hover:text-[#FF5722] transition-colors"
-              >
-                Live
-              </a>
-            </div>
-          </div>
-
-          {/* Project 4 */}
-          <div className="border-t-[3px] border-black py-8">
-            <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tight text-black">
-              Orbit CLI
-            </h3>
-            <p className="text-black text-base mt-3">
-              Command-line tool for managing multi-cloud deployments.
-            </p>
-            <p className="text-sm font-bold uppercase tracking-wide text-black mt-4">
-              Rust / AWS SDK / Docker / GitHub Actions
-            </p>
-            <div className="flex items-center gap-6 mt-6">
-              <a
-                href="#"
+                href="https://github.com/icbingil/LaurelleVet"
                 className="text-sm font-bold uppercase tracking-widest text-black hover:text-[#FF5722] transition-colors"
               >
                 GitHub

@@ -27,32 +27,32 @@ export function Skills() {
           </div>
           <div className="border-b-[3px] border-black py-3">
             <span className="font-bold uppercase text-sm tracking-wide text-black">
-              Python
+              JavaScript
+            </span>
+          </div>
+          <div className="border-b-[3px] border-black py-3">
+            <span className="font-bold uppercase text-sm tracking-wide text-black">
+              PHP
+            </span>
+          </div>
+          <div className="border-b-[3px] border-black py-3">
+            <span className="font-bold uppercase text-sm tracking-wide text-black">
+              Next.JS
+            </span>
+          </div>
+          <div className="border-b-[3px] border-black py-3">
+            <span className="font-bold uppercase text-sm tracking-wide text-black">
+              LARAVEL
+            </span>
+          </div>
+          <div className="border-b-[3px] border-black py-3">
+            <span className="font-bold uppercase text-sm tracking-wide text-black">
+              MySQL
             </span>
           </div>
           <div className="border-b-[3px] border-black py-3">
             <span className="font-bold uppercase text-sm tracking-wide text-black">
               PostgreSQL
-            </span>
-          </div>
-          <div className="border-b-[3px] border-black py-3">
-            <span className="font-bold uppercase text-sm tracking-wide text-black">
-              Redis
-            </span>
-          </div>
-          <div className="border-b-[3px] border-black py-3">
-            <span className="font-bold uppercase text-sm tracking-wide text-black">
-              AWS
-            </span>
-          </div>
-          <div className="border-b-[3px] border-black py-3">
-            <span className="font-bold uppercase text-sm tracking-wide text-black">
-              Docker
-            </span>
-          </div>
-          <div className="border-b-[3px] border-black py-3">
-            <span className="font-bold uppercase text-sm tracking-wide text-black">
-              GraphQL
             </span>
           </div>
           <div className="border-b-[3px] border-black py-3">
