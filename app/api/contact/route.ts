@@ -86,26 +86,6 @@ export async function POST(req: Request) {
       contentType?: string
     }> = []
 
-    if (attachment && attachment instanceof File && attachment.size > 0) {
-      const maxBytes = 5 * 1024 * 1024
-      if (attachment.size > maxBytes) {
-        return new Response(
-          JSON.stringify({
-            success: false,
-            error: "Attachment too large (max 5MB)",
-          }),
-          { status: 400, headers: { "Content-Type": "application/json" } }
-        )
-      }
-
-      const arrayBuffer = await attachment.arrayBuffer()
-      attachments.push({
-        filename: attachment.name || "attachment",
-        content: Buffer.from(arrayBuffer),
-        contentType: attachment.type || undefined,
-      })
-    }
-
     const info = await transporter.sendMail({
       from: `"ICB PORTFOLIO" <${process.env.SMTP_USER}>`,
       to: toAddress,

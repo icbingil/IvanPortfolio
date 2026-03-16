@@ -14,6 +14,7 @@ export default function Home() {
 
       <main className="max-w-5xl mx-auto px-6">
         <Hero />
+
         <About />
         <Skills />
         <Projects />
