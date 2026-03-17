@@ -22,9 +22,9 @@ export function Hero() {
   return (
     <section id="top" className="min-h-[85vh] flex flex-col items-center justify-center pt-24 pb-12">
       <div className="w-full flex items-center gap-8 mb-12">
-        <div className="flex-1 shrink-0 p-8 bg-gray-100 rounded-full flex items-center justify-center">
+        <div className="flex-1 shrink-0 p-2 bg-white-100 rounded-full flex items-center justify-center">
           <Image
-            src="/images/ivanaaaaa.png"
+            src="/images/ivanpogihh.jpg"
             width={300}
             height={300}
             alt="Picture of the author"
